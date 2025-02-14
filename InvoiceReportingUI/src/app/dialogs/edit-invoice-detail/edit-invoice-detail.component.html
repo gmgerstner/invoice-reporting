@@ -1,0 +1,27 @@
+<h2 mat-dialog-title>Invoice Entry</h2>
+<mat-dialog-content class="edit-invoice-detail-component">
+  <div>Description</div>
+  <mat-form-field>
+    <input matInput [(ngModel)]="detail.description" />
+  </mat-form-field>
+  <div>Hours</div>
+  <mat-form-field>
+    <input matInput type="number" step="0.01" [(ngModel)]="detail.hours" />
+  </mat-form-field>
+  <div>Rate</div>
+  <mat-form-field>
+    <input matInput type="number" step="0.01" [(ngModel)]="detail.rate" />
+    <span matTextPrefix>$&nbsp;</span>
+  </mat-form-field>
+  <div>Amount</div>
+  <mat-form-field>
+    <input matInput type="number" step="0.01" [(ngModel)]="detail.amount" />
+    <span matTextPrefix>$&nbsp;</span>
+  </mat-form-field>
+  <button mat-mini-fab class="calculatebutton" aria-label="Calculate" (click)="calculate()">
+    <mat-icon>calculate</mat-icon>
+  </button>
+  <button mat-fab extended class="savebutton" aria-label="onSaveClick" (click)="onSaveClick()">
+    <mat-icon>save</mat-icon>Save
+  </button>
+</mat-dialog-content>

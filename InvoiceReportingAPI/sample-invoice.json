@@ -1,0 +1,26 @@
+{
+  "invoiceNumber": 10,
+  "invoiceDate": "2021-08-31T23:51:17.377Z",
+  "client": "HUDSON ART TECH\r\n539 State Street #2\r\nHudson, NY 12534\r\nAttn.\t:\tGuy Nouri\r\nEmail\t:\tguynouri@gmail.com\r\nPhone\t:\t203-939-8708",
+  "service": "Software Support for HAT: 'Work for Hire'",
+  "invoiceDetails": [
+    {
+      "description": "Prior Balance",
+      "hours": null,
+      "rate": null,
+      "amount": -25.75
+    },
+    {
+      "description": "7/31/2021 - Research Dropbox functionality",
+      "hours": 1.0,
+      "rate": 50,
+      "amount": 50
+    },
+    {
+      "description": "Monthly Test Environment Usage for July",
+      "hours": null,
+      "rate": 25.00,
+      "amount": 25.00
+    }
+  ]
+}

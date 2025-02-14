@@ -1,0 +1,71 @@
+.home-right-align {
+  text-align: right;
+}
+
+:host {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+mat-form-field {
+  width: 100%;
+}
+
+.input-narrow {
+  width: 75px;
+}
+
+.input-wide {
+  width: 100%;
+}
+
+.input-instructions {
+  width: 100%;
+  height: 100px;
+}
+
+table {
+  width: 100%;
+}
+
+.home-component {
+  margin: 2%;
+  width: 96%;
+}
+
+.editbutton {
+  background-color: green;
+}
+
+.printbutton {
+  background-color: green;
+}
+
+.addbutton {
+  background-color: green;
+}
+
+.deletebutton {
+  background-color: red;
+}
+
+.movebutton {
+  background-color: blue;
+}
+
+.buttoncolumn {
+  width: 200px;
+}
+
+.hourscolumn {
+  width: 200px;
+}
+
+.ratecolumn {
+  width: 200px;
+}
+
+.amountcolumn {
+  width: 200px;
+}

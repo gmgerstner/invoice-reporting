@@ -1,0 +1,24 @@
+.edit-invoice-detail-component {
+  margin: 2%;
+  width: 96%;
+}
+
+:host {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+mat-form-field {
+  width: 100%;
+}
+
+.savebutton, .calculatebutton {
+  background-color: green;
+  height: 48px;
+  margin-right: 0.25em;
+}
+
+.calculatebutton {
+  width: 48px;
+}

@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Data.SqlClient" />
+    <PackageReference Include="Newtonsoft.Json" />
+    <PackageReference Include="ReportViewerCore.NETCore" />
+    <PackageReference Include="Serilog.AspNetCore" />
+    <PackageReference Include="Serilog.Sinks.MSSqlServer" />
+    <PackageReference Include="Swashbuckle.AspNetCore" />
+    <PackageReference Include="System.Data.SqlClient" />
+    <PackageReference Include="System.Drawing.Common" />
+    <PackageReference Include="System.Text.Encoding.CodePages" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GMG.InvoiceGeneration.ReportDocuments\GMG.InvoiceGeneration.ReportDocuments.csproj" />
+    <ProjectReference Include="..\GMG.InvoiceGeneration.ReportingModels\GMG.InvoiceGeneration.ReportingModels.csproj" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,62 @@
+{
+  "invoiceNumber": 7,
+  "invoiceDate": "2021-09-02T00:00:00.000Z",
+  "client": "HUDSON ART TECH\r\n539 State Street #2\r\nHudson, NY 12534\r\nAttn.\t:\tGuy Nouri\r\nEmail\t:\tguynouri@gmail.com\r\nPhone\t:\t203-939-8708",
+  "service": "Software Support for HAT: 'Work for Hire'",
+  "invoiceDetails": [
+    {
+      "description": "Prior Balance",
+      "hours": null,
+      "rate": null,
+      "amount": -0.00
+    },
+    {
+      "description": "Monthly Test Environment Usage for August",
+      "hours": null,
+      "rate": 25.00,
+      "amount": 25.00
+    },
+    {
+      "description": "8/19/2021 - Consultation of New Swiper API",
+      "hours": 0.25,
+      "rate": 50,
+      "amount": 12.50
+    },
+    {
+      "description": "8/21/2021 - Prototype Development",
+      "hours": 2.00,
+      "rate": 50,
+      "amount": 100.00
+    },
+    {
+      "description": "8/22/2021 - Prototype Development",
+      "hours": 0.75,
+      "rate": 50,
+      "amount": 37.50
+    },
+    {
+      "description": "8/23/2021 - Implement Swiper into project",
+      "hours": 2.00,
+      "rate": 50,
+      "amount": 100.00
+    },
+    {
+      "description": "8/24/2021 - Implement Swiper into project",
+      "hours": 1.5,
+      "rate": 50,
+      "amount": 75.00
+    },
+    {
+      "description": "8/26/2021 - Domain Name URL solutions for TwoBoots.org",
+      "hours": 1.5,
+      "rate": 50,
+      "amount": 75.00
+    },
+    {
+      "description": "8/27/2021 - Domain Name URL solutions for TwoBoots.org",
+      "hours": 1.25,
+      "rate": 50,
+      "amount": 62.50
+    }
+  ]
+}
